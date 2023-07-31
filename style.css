@@ -1,9 +1,9 @@
 body {
-    background-image: linear-gradient(black, rgb(56, 55, 55));
+    background-image: linear-gradient(white, rgb(56, 55, 55));
     font-family:fantasy;
     height: 200vh;
     margin-left: 20px;
-    background: url(https://tinyurl.com/43x9m9by);
+    
 }
 h1{
     color: white;
@@ -27,7 +27,7 @@ img{
     float: right;
     position: relative;
     right: -100px;
-    width: 170px;
+    width: 190px;
     top: 150px;
     border-radius: 50%;
 }
@@ -38,17 +38,34 @@ img{
  top: -110px;
    
 }
-.barOne {
-    display: flex;
-    padding: 5px;
-    height: 100px;
-    width: 84%;
-    justify-content: start;
-    align-items: center;
+.nav_back{
     background-image: linear-gradient(to bottom right, rgb(37, 37, 37) , grey);
      border: 5px inset gray;
      border-radius: 5px;  /* Rounds out the border to look nicer  */
-     text-shadow:2px 2px 5px red;
+     text-shadow:2px 2px 5px red; 
+    width: 82%; 
+    height: 75px; 
+    padding: 5px;
+}
+.barOne {
+    display: flex;
+    padding: 2px;
+   float: left;
+   height: 100px;
+
+}
+.left_bar{
+    display: flex;
+   align-items: center;
+   flex-direction: row;
+   justify-content: end;
+  
+ 
+}
+#nav_button{
+ display: flex;
+ padding: 10px;
+ justify-content: flex-end;
 }
 .who {
     display: flex;
